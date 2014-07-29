@@ -1,4 +1,4 @@
 algs
 ====
 
-Just a repo, for algorithm investigations
+Working repo for saving investigations on algorithms.
