@@ -6,8 +6,8 @@ BinaryHeap.prototype.data = [];
 
 BinaryHeap.prototype.insert = function(value) {
 	if (this.data.length == 0) this.data.length = 1;
+	
 	this.data[this.data.length] = value;
-
 
 	this.swim(this.data.length);
 }

@@ -1,9 +1,4 @@
-var UndirectedGraph = function(){
-    this.V = 0;
-    this.adj = [];
-};
-
-UndirectedGraph.prototype.initGraph = function(V){
+var UndirectedGraph = function(V){
     this.V = V;
     for (var v = 0 ; v < V ; v++){
         this.adj[v] = [];

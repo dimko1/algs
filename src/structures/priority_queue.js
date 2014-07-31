@@ -11,7 +11,7 @@ PriorityQueue.prototype.generate_numbers = function(amount){
 	this.array.generate_numbers(amount);
 }
 
-PriorityQueue.prototype.delMax = function(){
+PriorityQueue.prototype.delMin = function(){
 	if (this.array.length == 0) return -1;
 
 	var min = 0;
@@ -24,7 +24,7 @@ PriorityQueue.prototype.delMax = function(){
 	return this.array.pop();
 }
 
-PriorityQueue.prototype.getNMax = function(n, data){
+PriorityQueue.prototype.getNMin = function(n, data){
 	for (var i = 0; i < data.length; i++){
 		this.addItem(data[i]);
 

@@ -1,9 +1,4 @@
-var DirectedGraph = function(){
-    this.V = 0;
-    this.adj = [];
-};
-
-DirectedGraph.prototype.initGraph = function(V){
+var DirectedGraph = function(V){
     this.V = V;
     for (var v = 0 ; v < V ; v++){
         this.adj[v] = [];
