@@ -1,8 +1,8 @@
-var SORTING_ALGORITHMS = SORTING_ALGORITHMS || {};
+var alg_module = ALGS.namespace('ALGS.sorting_algorithms');
 
 (function(){
 
-	SORTING_ALGORITHMS.selection_sort = function(array){
+	alg_module.selection_sort = function(array){
 		var length = array.length;
 
 		for (var i = 0; i < length; i++){

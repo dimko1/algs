@@ -1,5 +1,8 @@
+var alg_module = ALGS.namespace('ALGS.graphs.undirected_bfs');
+
 var UndirectedGraph = function(V){
     this.V = V;
+    this.adj = [];
     for (var v = 0 ; v < V ; v++){
         this.adj[v] = [];
     }

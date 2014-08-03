@@ -13,6 +13,7 @@ BinaryHeap.prototype.insert = function(value) {
 }
 
 BinaryHeap.prototype.swim = function(k){
+	
 	var current_element = k - 1;
 	var parent = Math.floor(current_element / 2);
 

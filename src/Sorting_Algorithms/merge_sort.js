@@ -1,8 +1,8 @@
-var SORTING_ALGORITHMS = SORTING_ALGORITHMS || {};
+var alg_module = ALGS.namespace('ALGS.sorting_algorithms');
 
 (function(){
 	
-	SORTING_ALGORITHMS.merge_sort = function(array){
+	alg_module.merge_sort = function(array){
 		
 
 		function merge(left, right){

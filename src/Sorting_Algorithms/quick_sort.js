@@ -1,9 +1,8 @@
-var SORTING_ALGORITHMS = SORTING_ALGORITHMS || {};
-
+var alg_module = ALGS.namespace('ALGS.sorting_algorithms');
 
 (function(){
 	
-	SORTING_ALGORITHMS.quick_sort = function(array){
+	alg_module.quick_sort = function(array){
 
 		function partition(array, lo, hi){
 			var i = lo, j = hi + 1;
