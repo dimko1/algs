@@ -1,5 +1,6 @@
 var DirectedGraph = function(V){
     this.V = V;
+    this.adj = [];
     for (var v = 0 ; v < V ; v++){
         this.adj[v] = [];
     }
